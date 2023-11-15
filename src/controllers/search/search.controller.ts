@@ -9,6 +9,6 @@ export class SearchController {
     const ISBN: string = params.isbn;
     let foundBook: Book = { name: '' };
     
-    return foundBookName;
+    return foundBook.name;
   }
 }
