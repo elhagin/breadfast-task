@@ -10,3 +10,9 @@ Perform caching. Cache should be persistent.
 [Bonus] Structure your project such that Caching and Reverse book name search API are easily exchangeable with other services/apis/modules
 
 [Bonus] Containerise your solution
+
+## Implementation
+### API reference
+`/search/{ISBN}`
+- GET method: takes ISBN as a number in the path
+- RETURNS: book name of isbn 10 or 13 entered
